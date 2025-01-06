@@ -47,11 +47,57 @@ nav ul li a {
 /* Header */
 header {
     background-color: #333;
-    height: 50%;
+    height: 55%;
     text-align: center;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+header p {
+    margin-top: -5px;
+}
+
+.header-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    border: 1px solid red;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btn p {
+    margin-top: 10px;
+}
+
+/* Recent Posts */
+.recent-posts {
+    margin-top: 10px;
+    border: 1px solid white;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.post {
+    width: 30%;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
 }

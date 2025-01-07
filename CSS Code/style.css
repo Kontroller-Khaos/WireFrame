@@ -23,7 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     position: relative;
-    height: 50px;
+    height: 60px;
 }
 
 nav h1 {
@@ -64,8 +64,14 @@ header {
     align-items: center;
 }
 
+header h1 {
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+
 header p {
-    margin-top: -5px;
+    margin-top: 10px;
+    font-size: 24px;
 }
 
 .header-btns {
@@ -77,19 +83,19 @@ header p {
 
 .btn {
     background-color: red;
-    border-radius: 20px;
+    border-radius: 25px;
     color: white;
     border: 1px solid red;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-    height: 40px;
-    width: 100px;
+    width: 200px;
+    padding: 15px 0;
     margin: 10px;
     text-decoration: none;
 }
 
-.btn p {
+/* .btn p {
     margin-top: 10px;
-}
+} */
 
 /* ========================= Recent Posts ======================== */
 

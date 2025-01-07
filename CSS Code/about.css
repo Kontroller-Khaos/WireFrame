@@ -2,7 +2,6 @@ html {
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(38, 38, 38) 150%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* Keeps the gradient static */
     height: 100%;
 }
 

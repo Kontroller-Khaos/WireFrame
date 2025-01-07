@@ -1,10 +1,19 @@
+html {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(38, 38, 38) 150%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Keeps the gradient static */
+    height: 100%;
+}
+
+
 body {
-    background-color: #000;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: white;
     letter-spacing: 1px;
+    height: 100vh;
 }
 
 * {
@@ -261,3 +270,26 @@ header p {
 }
 
 /* ========================= Footer ============================== */
+.footer {
+    height: 170px;
+    position: relative;
+
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}

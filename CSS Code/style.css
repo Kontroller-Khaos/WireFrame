@@ -7,6 +7,11 @@ body {
     letter-spacing: 1px;
 }
 
+* {
+    font-family: "Roboto Flex" ";
+
+}
+
 .container {
     height: 100vh;
     padding: 10px;
@@ -52,7 +57,7 @@ header {
     background-color: #333;
     height: 800px;
     text-align: center;
-
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,12 +117,14 @@ header p {
     margin: 10px;
     color: white;
     background-color: #333;
+    border-radius: 10px;
 }
 
 .post img {
     width: 100%;
     height: 400px;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .engagement {
@@ -162,12 +169,14 @@ header p {
     position: relative;
     background-color: #333;
     color: white;
+    border-radius: 10px;
 }
 
 .highlight img {
     width: 100%;
     height: 70%;
     object-fit: cover;
+    border-radius: 10px;
 }
 
 .highlight button {
@@ -199,8 +208,8 @@ header p {
     transform: translate(-50%, -50%);
     border: 1px solid #333;
     border-radius: 10px;
-    width: 700px;
-    height: 500px;
+    width: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -209,12 +218,23 @@ header p {
 }
 
 .subscribe h3 {
-    font-size: 36px;
+    font-size: 42px;
+    position: absolute;
+    top: 10px;
+}
+
+.price {
+    font-size: 84px !important;
+    text-align: center;
+    margin-bottom: -5px;
 }
 
 .subscribe p {
-    font-size: 12px;
-    width: 65%;
+    font-size: 16px;
+    width: 75%;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: -25px;
 }
 
 .subscribe button {

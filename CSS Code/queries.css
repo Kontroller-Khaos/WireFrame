@@ -98,7 +98,6 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1450px) {
     .highlights {
-        border: 1px solid white;
         flex-direction: column;
     }
 

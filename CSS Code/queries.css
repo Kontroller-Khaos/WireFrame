@@ -1,4 +1,25 @@
 @media screen and (max-width: 435px) {
+    nav h3 {
+        color: red;
+        font-size: 32px;
+        position: relative;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 24px;
+        position: relative;
+        top: -5px;
+        left: 10px;
+    }
+
     .btn {
         padding: 10px;
         width: 100px;
@@ -42,7 +63,35 @@
     }
 
     .right {
-        top: 150px;
+        top: 100px;
+        left: -10px;
     }
 
+    .subscribe {
+        width: 100%;
+        height: 500px;
+    }
+
+    .subscribe h3 {
+        text-align: center;
+    }
+
+    .price {
+        font-size: 56px !important;
+    }
+
+    .footer {
+        margin-top: -20px;
+        height: 50px
+    }
+
+    .links ul {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .links li {
+        font-size: 16px;
+        margin-right: 15px;
+    }
 }

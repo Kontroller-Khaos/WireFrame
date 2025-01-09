@@ -22,6 +22,7 @@ body {
 
 .container {
     height: 100vh;
+    width: calc(100vw -20px);
     padding: 10px;
 }
 

@@ -1,0 +1,17 @@
+@media screen and (max-width: 435px) {
+    .btn {
+        padding: 10px;
+        width: 100px;
+    }
+
+    .posts {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .post {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}

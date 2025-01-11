@@ -3,17 +3,26 @@
         color: red;
         font-size: 32px;
         position: relative;
-        top: -30px;
+        top: -25px;
         left: 50%;
         transform: translateX(-50%);
     }
 
-    .nav-links {
+    #nav-link-1,
+    #nav-link-2,
+    #nav-link-3 {
         display: none;
     }
 
+    #nav-link-4 {
+        position: relative;
+        left: 15px;
+        top: -3px;
+        font-size: 20px;
+    }
+
     .hamburger {
-        display: block;
+        display: block !important;
         font-size: 24px;
         position: relative;
         top: -5px;

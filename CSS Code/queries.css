@@ -1,4 +1,16 @@
+@media screen and (min-width: 1430px) {
+    body {
+        width: 1800px;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 435px) {
+    body {
+
+        width: 100vw !important;
+    }
+
     nav h1 {
         color: red;
         font-size: 32px;
@@ -16,17 +28,17 @@
 
     #nav-link-4 {
         position: relative;
-        left: 15px;
-        top: -3px;
-        font-size: 20px;
+        left: 10px;
+        top: -10px;
+        font-size: 35px;
     }
 
     .hamburger {
         display: block !important;
-        font-size: 24px;
-        position: relative;
-        top: -5px;
-        left: 10px;
+        font-size: 35px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
     }
 
     .btn {
@@ -48,6 +60,7 @@
     .highlights {
         flex-direction: column;
         width: 100vw;
+        margin-top: -70px;
     }
 
     .left {
@@ -72,13 +85,16 @@
     }
 
     .right {
-        top: 100px;
+        height: 700px;
+        top: 0px;
         left: -10px;
     }
 
     .subscribe {
         width: 100%;
         height: 500px;
+        position: relative !important;
+        top: 415px;
     }
 
     .subscribe h3 {
@@ -90,8 +106,8 @@
     }
 
     .footer {
-        margin-top: -20px;
-        height: 50px
+        margin-top: 0px;
+        height: 20px;
     }
 
     .links ul {

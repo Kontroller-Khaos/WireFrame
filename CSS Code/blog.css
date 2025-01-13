@@ -16,7 +16,11 @@ body {
 
 * {
     box-sizing: border-box;
-    /* Ensure consistent width calculations */
+}
+
+html {
+    background-color: black;
+    scroll-behavior: smooth;
 }
 
 .back-btn {
@@ -32,9 +36,62 @@ body {
 }
 
 .main-body {
-    border: 1px solid white;
     width: calc(100% - 25px);
     margin: 10px;
     position: relative;
-    top: 250px;
+    top: 200px;
+}
+
+.main-body h1 {
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+.most-recent,
+.most-popular {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin: 10px;
+}
+
+.most-pop-title {
+    margin-top: 100px;
+}
+
+.most-popular {
+    padding-bottom: 20px !important;
+}
+
+.blog-post {
+    border-bottom: 3px solid #00ff80;
+    padding: 10px;
+    height: 550px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.blog-post img {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.date-posted {
+    /* position: absolute;
+    right: 10px; */
+    float: right;
+    font-size: 14px;
+    color: #737373;
+}
+
+.engagement {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.engagement span {
+    margin-left: 10px
 }

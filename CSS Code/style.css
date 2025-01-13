@@ -127,7 +127,7 @@ header p {
 
 .post {
     width: 33.33%;
-    border: 1px solid #333;
+    border-bottom: 3px solid #00ff80;
     padding: 10px;
     margin: 10px;
     color: white;

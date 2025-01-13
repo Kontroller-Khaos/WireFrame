@@ -1,10 +1,22 @@
-html {
+body {
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(38, 38, 38) 150%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* Keeps the gradient static */
     height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     color: white;
+    letter-spacing: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    /* Prevent horizontal overflow */
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+    /* Ensure consistent width calculations */
 }
 
 .back-btn {
@@ -17,4 +29,12 @@ html {
     font-weight: bold;
     border: 1px solid;
     padding: 10px;
+}
+
+.main-body {
+    border: 1px solid white;
+    width: calc(100% - 25px);
+    margin: 10px;
+    position: relative;
+    top: 250px;
 }

@@ -39,7 +39,7 @@ html {
     width: calc(100% - 25px);
     margin: 10px;
     position: relative;
-    top: 200px;
+    top: 150px;
 }
 
 .main-body h1 {
@@ -47,20 +47,11 @@ html {
     font-size: 32px;
 }
 
-.most-recent,
-.most-popular {
+.most-recent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 30px;
     margin: 10px;
-}
-
-.most-pop-title {
-    margin-top: 100px;
-}
-
-.most-popular {
-    padding-bottom: 20px !important;
 }
 
 .blog-post {
@@ -94,4 +85,29 @@ html {
 
 .engagement span {
     margin-left: 10px
+}
+
+.footer {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
 }

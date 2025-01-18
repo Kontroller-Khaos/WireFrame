@@ -1,3 +1,21 @@
+/* Since all pages will have queries, We will add the html styling here that will be on all pages */
+body {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgb(38, 38, 38) 150%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    letter-spacing: 1px;
+    height: 100vh;
+}
+
+* {
+    font-family: "Roboto Flex";
+}
+
 @media screen and (min-width: 1430px) {
     body {
         width: 1800px;

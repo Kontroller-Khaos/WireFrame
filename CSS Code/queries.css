@@ -16,6 +16,39 @@ body {
     font-family: "Roboto Flex";
 }
 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 60px;
+}
+
+nav h1 {
+    position: absolute;
+    top: -11px;
+    left: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: auto;
+    position: absolute;
+    right: 5px;
+    top: -11px;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 1430px) {
     body {
         width: 1800px;
